@@ -5,7 +5,7 @@ pipeline {
         stage('Hello') {
             steps {
                 echo 'Hello World'
-                bat 'pyhon targil.py'
+                bat 'python targil.py'
             }
         }
     }
